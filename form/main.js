@@ -44,7 +44,7 @@ function submit(){
                 document.getElementById('logged_in').innerHTML = "Welcome back " + new_firstname;
                 break;
             }else{
-                document.getElementById('logged_in').innerHTML = " back " + new_firstname;
+                document.getElementById('logged_in').innerHTML = "Ops!! Sorry " + new_firstname + " we could'nt find this account";
                 init++;
 
             }
