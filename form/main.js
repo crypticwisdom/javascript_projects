@@ -47,13 +47,6 @@ function submit(){
                 document.getElementById('logged_in').innerHTML = "Ops!! Sorry " + new_firstname + " we could'nt find this account";
                 init++;
 
-            }
-            
-        
-        
+            }   
     }
-    
-
-    
-
 }
